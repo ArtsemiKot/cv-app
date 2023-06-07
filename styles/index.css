@@ -208,12 +208,12 @@ footer nav {
     display: flex;
 }
 
-.date p {
+footer div p {
     font: 500 22px 'DM Sans';
     color: #2429AF;
 }
 
-nav p {
+footer nav p {
     font: 500 22px 'DM Sans';
     color: #181717;
 

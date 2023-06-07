@@ -1,0 +1,220 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-style: normal;
+    font-family: 'DM Sans';
+}
+
+body {
+    width: 1250px;
+    margin: auto;
+    background-color: #E5E5E5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.logo {
+    background-image: url(../assect/hs..svg);
+    width: 64px;
+    height: 50.4px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header nav {
+    display: flex;
+}
+
+p {
+    margin-right: 25px;
+    font: 500 22px 'DM Sans';
+    color: #181717;
+}
+
+.preview {
+    margin-top: 120px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info h1 {
+    font: 500 60px 'DM Sans';
+    color: #181717;
+}
+
+.info p {
+    font: 400 32px 'DM Snas';
+    color: #606060;
+}
+
+.arrow {
+    background-image: url(../assect/↓.svg);
+    width: 33px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 128px;
+}
+
+.portfolio {
+    margin-top: 83px;
+}
+
+.uniteport-o {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textportfolio h2 {
+    font: 500 24px 'DM Sans';
+    color: #181717;
+}
+
+.textportfolio h3 {
+    font: 400 22px 'DM Sans';
+    color: #181717;
+    margin-top: 25px;
+}
+
+.textportfolio h4 {
+    font: 400 22px 'DM Sans';
+    color: #606060;
+    margin-top: 35px;
+}
+
+.textportfolio p {
+    font: 500 22px 'DM Sans';
+    letter-spacing: -0.03em;
+    text-decoration-line: underline;
+    color: #181717;
+    margin-top: 167px;
+}
+
+.fotoport-o {
+    background-image: url(../assect/Thumbnail.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 640px;
+    height: 364px;
+}
+
+hr {
+    border: 1.5px solid #181717;
+    margin-top: 106px;
+}
+
+.nameproject02 {
+    margin-top: 114px;
+}
+
+.uniteproject02 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textproject02 h2 {
+    font: 500 24px 'DM Sans';
+    color: #181717;
+}
+
+.textproject02 h3 {
+    font: 400 22px 'DM Sans';
+    color: #181717;
+    margin-top: 25px;
+}
+
+.textproject02 h4 {
+    font: 400 22px 'DM Sans';
+    color: #606060;
+    margin-top: 35px;
+}
+
+.textproject02 p {
+    font: 500 22px 'DM Sans';
+    letter-spacing: -0.03em;
+    text-decoration-line: underline;
+    color: #181717;
+    margin-top: 167px;
+}
+
+.fotoproject02 {
+    background-image: url(../assect/Thumbnail.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 640px;
+    height: 364px;
+}
+
+.nameproject03 {
+    margin-top: 114px;
+}
+
+.uniteproject03 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textproject03 h2 {
+    font: 500 24px 'DM Sans';
+    color: #181717;
+}
+
+.textproject03 h3 {
+    font: 400 22px 'DM Sans';
+    color: #181717;
+    margin-top: 25px;
+}
+
+.textproject03 h4 {
+    font: 400 22px 'DM Sans';
+    color: #606060;
+    margin-top: 35px;
+}
+
+.textproject03 p {
+    font: 500 22px 'DM Sans';
+    letter-spacing: -0.03em;
+    text-decoration-line: underline;
+    color: #181717;
+    margin-top: 167px;
+}
+
+.fotoproject03 {
+    background-image: url(../assect/Thumbnail.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 640px;
+    height: 364px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 126px;
+    margin-bottom: 10px;
+}
+
+footer nav {
+    display: flex;
+}
+
+.date p {
+    font: 500 22px 'DM Sans';
+    color: #2429AF;
+}
+
+nav p {
+    font: 500 22px 'DM Sans';
+    color: #181717;
+
+}

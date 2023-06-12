@@ -15,7 +15,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 1250px;
+    background-color: #E5E5E5;
 }
 
 .logo {
@@ -30,10 +34,15 @@ header nav {
     display: flex;
 }
 
-p {
+p a {
     margin-right: 25px;
     font: 500 22px 'DM Sans';
     color: #181717;
+    text-decoration: none;
+}
+
+header nav p a:hover {
+    text-decoration: underline;
 }
 
 .preview {
@@ -63,6 +72,11 @@ p {
     background-repeat: no-repeat;
     background-size: contain;
     margin-top: 128px;
+    position: relative;
+}
+
+.arrow:hover {
+    top: 2px;
 }
 
 .portfolio {
@@ -100,7 +114,7 @@ p {
 }
 
 .fotoport-o {
-    background-image: url(../assect/Thumbnail.svg);
+    background-image: url(../assect/one.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 640px;
@@ -147,7 +161,7 @@ hr {
 }
 
 .fotoproject02 {
-    background-image: url(../assect/Thumbnail.svg);
+    background-image: url(../assect/two.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 640px;
@@ -189,7 +203,7 @@ hr {
 }
 
 .fotoproject03 {
-    background-image: url(../assect/Thumbnail.svg);
+    background-image: url(../assect/three.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 640px;
@@ -216,5 +230,5 @@ footer div p {
 footer nav p {
     font: 500 22px 'DM Sans';
     color: #181717;
-
+    padding-right: 30px;
 }

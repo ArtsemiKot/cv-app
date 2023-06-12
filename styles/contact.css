@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: normal;
+    font-family: 'DM Sans';
+}
+
+body {
+    width: 1250px;
+    margin: auto;
+    background-color: #E5E5E5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 109px;
+}
+
+.logo {
+    background-image: url(../assect/hs..svg);
+    width: 64px;
+    height: 50.4px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header nav {
+    display: flex;
+}
+
+p a{
+    margin-right: 25px;
+    font: 500 22px 'DM Sans';
+    color: #181717;
+    text-decoration: none;
+}
+header nav p a:hover{
+    text-decoration: underline;
+}
+section h1 {
+    font: 500 60px 'DM Sans';
+    color: #181717;
+    margin-bottom: 32px;
+}
+
+.contact {
+    font: 400 22px 'DM Sans';
+    color: #606060;
+    margin-bottom: 50px;
+}
+section div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1050px;
+    margin-bottom: 30px;
+}
+
+section div input {
+    width: 675px;
+    height: 40px;
+    font: 400 15px 'Inter';
+    padding-left: 27px;
+}
+
+section div p {
+    width: 300px;
+}
+
+.next {
+    background: #000000;
+    border-radius: 5px;
+    width: 162px;
+    height: 42px;
+    margin-top: 27px;
+    margin-bottom: 107px;
+}
+
+.next p {
+    text-align: center;
+    font: 700 18px 'DM Sans';
+    color: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 126px;
+    margin-bottom: 10px;
+}
+
+footer nav {
+    display: flex;
+}
+
+footer div p {
+    font: 500 22px 'DM Sans';
+    color: #2429AF;
+}
+
+footer nav p {
+    font: 500 22px 'DM Sans';
+    color: #181717;
+    padding-right: 30px;
+}

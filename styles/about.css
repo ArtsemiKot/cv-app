@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-style: normal;
+    font-family: 'DM Sans';
+}
+
+body {
+    width: 1250px;
+    margin: auto;
+    background-color: #E5E5E5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 1250px;
+    background-color: #E5E5E5;
+}
+
+.logo {
+    background-image: url(../assect/hs..svg);
+    width: 64px;
+    height: 50.4px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header nav {
+    display: flex;
+}
+
+p a {
+    margin-right: 25px;
+    font: 500 22px 'DM Sans';
+    color: #181717;
+    text-decoration: none;
+}
+
+header nav p a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 147px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.about div h1 {
+    font: 500 60px "DM Sans";
+    color: #181717;
+}
+
+.about p {
+    font: 400 24px 'DM Sans';
+    color: #606060;
+    width: 575px;
+    margin-top: 20px;
+
+}
+
+.fotoabout {
+    background-image: url(../assect/js3.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 405px;
+    height: 450px;
+}
+
+.skills div {
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+    margin-top: 30px;
+}
+
+.skills div h3 {
+    font: 500 22px 'DM Sans';
+    text-decoration-line: underline;
+    color: #181717;
+}
+
+.skills div p {
+    font: 400 20px 'DM Sans';
+    width: 430px;
+    color: #181717;
+}
+
+.line {
+    width: 1250px;
+    height: 2px;
+    background: #181717;
+    margin-top: 110px;
+    margin-bottom: 71px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact div {
+    display: flex;
+
+}
+
+.contact div h2 {
+    font: 400 32p 'DM Sans';
+    color: #181717;
+    width: 400px;
+}
+
+.rightarrow {
+    background-image: url(../assect/arrow.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 21px;
+    height: 24px;
+    margin-top: 10px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 126px;
+    margin-bottom: 10px;
+}
+
+footer nav {
+    display: flex;
+}
+
+footer div p {
+    font: 500 22px 'DM Sans';
+    color: #2429AF;
+}
+
+footer nav p {
+    font: 500 22px 'DM Sans';
+    color: #181717;
+    padding-right: 30px;
+}
